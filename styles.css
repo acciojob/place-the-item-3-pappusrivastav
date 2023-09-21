@@ -1,2 +1,34 @@
-
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.holder{
+	background-color: aqua;
+	width: 100vw;
+	height: 100vh;
+ 	display: flex; 
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#one{
+	background-color: red;
+	width: 150px;
+	height: 150px;
+	order: 2;
+	
+}
+#two{
+	background-color: blue;
+	width: 150px;
+	height: 150px;
+	order: 3;
+}
+#three{
+	background-color: green;
+	width: 150px;
+	height: 150px;
+	order: 1;
+}
+/* Your CSS
 /* Your CSS Code here. */
